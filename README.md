@@ -1,4 +1,4 @@
-# node-red-contrib-soap
+# node-red-contrib-soap-plus
 Node-red nodes that allow users to send SOAP request.
 
 This is a fork from node-red-contrib-soap to publish fixes on NPM

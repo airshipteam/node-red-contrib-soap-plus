@@ -1,0 +1,52 @@
+{
+    "name": "node-red-contrib-soap-plus-plus",
+    "version": "1.0.0",
+    "description": "SOAP Client for Node Red",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "publish": "npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chameleonbr/node-red-contrib-soap-plus.git"
+    },
+    "keywords": [
+        "soap",
+        "node-red",
+        "node"
+    ],
+    "node-red": {
+        "nodes": {
+            "soap": "soap-node-plus.js",
+            "soap-config-plus": "soap-config-plus.js"
+        }
+    },
+    "author": {
+        "name": "Andre Alexandre Avila"
+    },
+    "contributors": [
+        {
+            "name": "Michael Qiu",
+            "email": "mqiu@sensetecnic.com"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chameleonbr/node-red-contrib-soap-plus/issues"
+    },
+    "homepage": "https://github.com/chameleonbr/node-red-contrib-soap-plus#readme",
+    "dependencies": {
+        "soap": "^0.11.4"
+    },
+    "maintainers": [
+        {
+            "name": "chameleonbr",
+            "email": "chameleonbr@gmail.com"
+        },
+        {
+            "name": "Michael Qiu",
+            "email": "mqiu@sensetecnic.com"
+        }
+    ]
+}

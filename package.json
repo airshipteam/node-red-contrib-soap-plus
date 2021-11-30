@@ -1,6 +1,6 @@
 {
     "name": "node-red-contrib-soap-plus",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "SOAP Client for Node Red",
     "main": "index.js",
     "scripts": {
@@ -29,6 +29,10 @@
         {
             "name": "Michael Qiu",
             "email": "mqiu@sensetecnic.com"
+        },
+        {
+            "name": "Andre Guerra",
+            "email": "andre.guerra@airship.co.uk"
         }
     ],
     "license": "MIT",

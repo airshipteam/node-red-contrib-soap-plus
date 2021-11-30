@@ -40,7 +40,11 @@ module.exports = function (RED) {
                     }
                     node.status({fill: "yellow", shape: "dot", text: "SOAP Request..."});
                     if(msg.headers){
-                        client.addSoapHeader(msg.headers);
+                        if (msg.headersOptions){
+                            client.addSoapHeader(msg.headers, msg.headersOptions.name, msg.headersOptions.nameSpace, msg.headersOptions.xmlns);
+                        } else {
+                            client.addSoapHeader(msg.header);
+                        }
                     }
 
                     if(client.hasOwnProperty(node.method)){
